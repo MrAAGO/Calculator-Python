@@ -1,28 +1,5 @@
 # Calculator-Python
+Simple Calculator with Python
 
-# Function to perform the desired operation
-def calculate(num1, num2, operator):
-    if operator == "+":
-        return num1 + num2
-    elif operator == "-":
-        return num1 - num2
-    elif operator == "*":
-        return num1 * num2
-    elif operator == "/":
-        return num1 / num2
 
-# Main program
-while True:
-    # Get user input
-    num1 = float(input("Enter first number: "))
-    num2 = float(input("Enter second number: "))
-    operator = input("Enter operator (+, -, *, /): ")
-
-    # Perform calculation and print result
-    result = calculate(num1, num2, operator)
-    print("Result:", result)
-
-    # Prompt user to continue or exit
-    cont = input("Do you want to perform another calculation? (y/n): ")
-    if cont.lower() != "y":
-        break
+![screenshot-www google com-2022 12 25-13_55_08](https://user-images.githubusercontent.com/86381942/209482888-86ab6c1d-d006-4f35-af9b-5675ae529208.png)
